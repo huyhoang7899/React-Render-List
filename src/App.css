@@ -21,11 +21,43 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #262626;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: sans-serif;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.recommended-friends{
+  width: 293px;
+  height: auto;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  /* border-top-left-radius: 5px;
+  border-top-right-radius: 5px; */
+  border-bottom: none;
+}
+
+.recommended-friends p:first-child {
+  color: #999999;
+  font-weight: bold; 
+}
+
+.follow-friend-list {
+  background: #FFFFFF;
+  width: 293px;
+  height: auto;
+}
+
+.follow-friend-list img {
+  border-radius: 50%;
+  margin: 0 10px 15px 20px;
+  /* margin-right: 10px;
+  margin-bottom: 15px; */
 }
 
 @keyframes App-logo-spin {
